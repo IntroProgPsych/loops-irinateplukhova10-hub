@@ -1,4 +1,4 @@
-# https://www.w3schools.com/python/python_while_loops.asp
+#https#://www.w3schools.com/python/python_while_loops.asp
 
 # Write a program that keeps asking the user for a PIN code until they type 4321.
 # The program must print "Wrong" for every incorrect attempt.
@@ -20,3 +20,13 @@
 
 
 # Write your code here:
+pin = input("Write your PIN: ")
+
+while pin != "4321":
+    print("Incorectorrect!")
+    pin = input("Write your PIN: ") 
+
+print("Correct!")
+
+    
+   
