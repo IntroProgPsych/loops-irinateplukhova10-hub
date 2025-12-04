@@ -20,3 +20,7 @@
 
 # Write your code here:
 numbers = [3, 8, 12, 7, 9, 10, 21, 30]
+
+for num in numbers:
+    if num % 2 == 0:
+        print(num)

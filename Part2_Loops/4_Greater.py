@@ -11,3 +11,8 @@
 # 4
 
 # Write your code here:
+
+int = int(input("Type positive integer: "))
+numbers = range(1,int)
+for x in numbers:
+    print(x)
